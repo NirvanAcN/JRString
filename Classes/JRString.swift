@@ -11,7 +11,7 @@ import Foundation
 // MARK: - MD5加密
 public extension String {
     
-    func JRMD5Bit32String() -> String! {
+    public func JRMD5Bit32String() -> String! {
         let str = cString(using: String.Encoding.utf8)
         let strLen = CUnsignedInt(lengthOfBytes(using: String.Encoding.utf8))
         let digestLen = Int(CC_MD5_DIGEST_LENGTH)
