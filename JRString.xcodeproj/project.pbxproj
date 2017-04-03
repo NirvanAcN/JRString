@@ -41,6 +41,7 @@
 		2B67E4F71E925F4500E3FC66 = {
 			isa = PBXGroup;
 			children = (
+				2BD42BC61E926DBD0074913B /* CocoaPods */,
 				2BD42B821E92674E0074913B /* Classes */,
 				2B67E5021E925F4500E3FC66 /* JRString */,
 				2B67E5011E925F4500E3FC66 /* Products */,
@@ -75,6 +76,13 @@
 				2BD42B831E92674E0074913B /* JRString.swift */,
 			);
 			path = Classes;
+			sourceTree = "<group>";
+		};
+		2BD42BC61E926DBD0074913B /* CocoaPods */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CocoaPods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
