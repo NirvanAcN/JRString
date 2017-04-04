@@ -23,7 +23,13 @@
 		2B67E50A1E925F4500E3FC66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2B67E50D1E925F4500E3FC66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2B67E50F1E925F4500E3FC66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2B67E51A1E92640700E3FC66 /* JRStringBridging.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JRStringBridging.h; sourceTree = "<group>"; };
+		2BC6F9A41E938E330044892F /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
+		2BC6F9A61E938E330044892F /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
+		2BC6F9A81E938E330044892F /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
+		2BC6F9AA1E938E330044892F /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
+		2BC6F9AC1E938E330044892F /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
+		2BC6F9AE1E938E330044892F /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
+		2BC6F9B01E938E330044892F /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
 		2BD42B831E92674E0074913B /* JRString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JRString.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -41,7 +47,7 @@
 		2B67E4F71E925F4500E3FC66 = {
 			isa = PBXGroup;
 			children = (
-				2BD42BC61E926DBD0074913B /* CocoaPods */,
+				2BC6F9A21E938E330044892F /* CocoaPods */,
 				2BD42B821E92674E0074913B /* Classes */,
 				2B67E5021E925F4500E3FC66 /* JRString */,
 				2B67E5011E925F4500E3FC66 /* Products */,
@@ -65,9 +71,78 @@
 				2B67E50A1E925F4500E3FC66 /* Assets.xcassets */,
 				2B67E50C1E925F4500E3FC66 /* LaunchScreen.storyboard */,
 				2B67E50F1E925F4500E3FC66 /* Info.plist */,
-				2B67E51A1E92640700E3FC66 /* JRStringBridging.h */,
 			);
 			path = JRString;
+			sourceTree = "<group>";
+		};
+		2BC6F9A21E938E330044892F /* CocoaPods */ = {
+			isa = PBXGroup;
+			children = (
+				2BC6F9A31E938E330044892F /* appletvos */,
+				2BC6F9A51E938E330044892F /* appletvsimulator */,
+				2BC6F9A71E938E330044892F /* iphoneos */,
+				2BC6F9A91E938E330044892F /* iphonesimulator */,
+				2BC6F9AB1E938E330044892F /* macosx */,
+				2BC6F9AD1E938E330044892F /* watchos */,
+				2BC6F9AF1E938E330044892F /* watchsimulator */,
+			);
+			path = CocoaPods;
+			sourceTree = "<group>";
+		};
+		2BC6F9A31E938E330044892F /* appletvos */ = {
+			isa = PBXGroup;
+			children = (
+				2BC6F9A41E938E330044892F /* module.modulemap */,
+			);
+			path = appletvos;
+			sourceTree = "<group>";
+		};
+		2BC6F9A51E938E330044892F /* appletvsimulator */ = {
+			isa = PBXGroup;
+			children = (
+				2BC6F9A61E938E330044892F /* module.modulemap */,
+			);
+			path = appletvsimulator;
+			sourceTree = "<group>";
+		};
+		2BC6F9A71E938E330044892F /* iphoneos */ = {
+			isa = PBXGroup;
+			children = (
+				2BC6F9A81E938E330044892F /* module.modulemap */,
+			);
+			path = iphoneos;
+			sourceTree = "<group>";
+		};
+		2BC6F9A91E938E330044892F /* iphonesimulator */ = {
+			isa = PBXGroup;
+			children = (
+				2BC6F9AA1E938E330044892F /* module.modulemap */,
+			);
+			path = iphonesimulator;
+			sourceTree = "<group>";
+		};
+		2BC6F9AB1E938E330044892F /* macosx */ = {
+			isa = PBXGroup;
+			children = (
+				2BC6F9AC1E938E330044892F /* module.modulemap */,
+			);
+			path = macosx;
+			sourceTree = "<group>";
+		};
+		2BC6F9AD1E938E330044892F /* watchos */ = {
+			isa = PBXGroup;
+			children = (
+				2BC6F9AE1E938E330044892F /* module.modulemap */,
+			);
+			path = watchos;
+			sourceTree = "<group>";
+		};
+		2BC6F9AF1E938E330044892F /* watchsimulator */ = {
+			isa = PBXGroup;
+			children = (
+				2BC6F9B01E938E330044892F /* module.modulemap */,
+			);
+			path = watchsimulator;
 			sourceTree = "<group>";
 		};
 		2BD42B821E92674E0074913B /* Classes */ = {
@@ -76,13 +151,6 @@
 				2BD42B831E92674E0074913B /* JRString.swift */,
 			);
 			path = Classes;
-			sourceTree = "<group>";
-		};
-		2BD42BC61E926DBD0074913B /* CocoaPods */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = CocoaPods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -286,7 +354,10 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jingruiwangke.JRString;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = /Users/jr/NirvanAcNWorkSpace/JRString/JRString/JRStringBridging.h;
+				SWIFT_INCLUDE_PATHS = "\"$(SRCROOT)/CocoaPods/iphonesimulator\"";
+				"SWIFT_INCLUDE_PATHS[sdk=iphoneos*]" = "\"$(SRCROOT)/CocoaPods/iphoneos\"";
+				"SWIFT_INCLUDE_PATHS[sdk=iphonesimulator*]" = "\"$(SRCROOT)/CocoaPods/iphonesimulator\"";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -299,7 +370,10 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jingruiwangke.JRString;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = /Users/jr/NirvanAcNWorkSpace/JRString/JRString/JRStringBridging.h;
+				SWIFT_INCLUDE_PATHS = "\"$(SRCROOT)/CocoaPods/iphonesimulator\"";
+				"SWIFT_INCLUDE_PATHS[sdk=iphoneos*]" = "\"$(SRCROOT)/CocoaPods/iphoneos\"";
+				"SWIFT_INCLUDE_PATHS[sdk=iphonesimulator*]" = "\"$(SRCROOT)/CocoaPods/iphonesimulator\"";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
