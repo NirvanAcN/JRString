@@ -12,7 +12,8 @@
 		2B67E5091E925F4500E3FC66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B67E5071E925F4500E3FC66 /* Main.storyboard */; };
 		2B67E50B1E925F4500E3FC66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B67E50A1E925F4500E3FC66 /* Assets.xcassets */; };
 		2B67E50E1E925F4500E3FC66 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B67E50C1E925F4500E3FC66 /* LaunchScreen.storyboard */; };
-		2BD42B841E92674E0074913B /* JRString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD42B831E92674E0074913B /* JRString.swift */; };
+		2BC6F9D21E93BF600044892F /* JRStringToImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC6F9D11E93BF600044892F /* JRStringToImage.swift */; };
+		2BD42B841E92674E0074913B /* JRCommonCrypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD42B831E92674E0074913B /* JRCommonCrypto.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,7 +31,8 @@
 		2BC6F9AC1E938E330044892F /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
 		2BC6F9AE1E938E330044892F /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
 		2BC6F9B01E938E330044892F /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
-		2BD42B831E92674E0074913B /* JRString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JRString.swift; sourceTree = "<group>"; };
+		2BC6F9D11E93BF600044892F /* JRStringToImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JRStringToImage.swift; sourceTree = "<group>"; };
+		2BD42B831E92674E0074913B /* JRCommonCrypto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JRCommonCrypto.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,7 +150,8 @@
 		2BD42B821E92674E0074913B /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				2BD42B831E92674E0074913B /* JRString.swift */,
+				2BD42B831E92674E0074913B /* JRCommonCrypto.swift */,
+				2BC6F9D11E93BF600044892F /* JRStringToImage.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -226,8 +229,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2B67E5061E925F4500E3FC66 /* ViewController.swift in Sources */,
+				2BC6F9D21E93BF600044892F /* JRStringToImage.swift in Sources */,
 				2B67E5041E925F4500E3FC66 /* AppDelegate.swift in Sources */,
-				2BD42B841E92674E0074913B /* JRString.swift in Sources */,
+				2BD42B841E92674E0074913B /* JRCommonCrypto.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

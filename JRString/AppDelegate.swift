@@ -1,11 +1,3 @@
-//
-//  AppDelegate.swift
-//  JRString
-//
-//  Created by 京睿 on 2017/4/3.
-//  Copyright © 2017年 京睿. All rights reserved.
-//
-
 import UIKit
 
 @UIApplicationMain

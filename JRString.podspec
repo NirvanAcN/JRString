@@ -9,11 +9,12 @@
 Pod::Spec.new do |s|
 
 s.name             = "JRString"
-s.version          = "1.0.3"
+s.version          = "1.0.4"
 s.summary          = "JRString summary"
 
 s.description      = <<-DESC
-1.string的MD5加密 32位/16位
+1.MD5加密 32位/16位
+2.本地图片名
         DESC
 
 s.homepage         = "https://github.com/NirvanAcN/JRString"
@@ -46,7 +47,5 @@ s.user_target_xcconfig = {
 'SWIFT_INCLUDE_PATHS[sdk=watchos*]'          => '$(PODS_ROOT)/JRString/CocoaPods/watchos',
 'SWIFT_INCLUDE_PATHS[sdk=watchsimulator*]'   => '$(PODS_ROOT)/JRString/CocoaPods/watchsimulator'
 }
-
-s.frameworks = 'UIKit'
 
 end
