@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import CCommonCrypto
 
 // MARK: - MD5加密
 public extension String {
