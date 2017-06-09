@@ -2,3 +2,9 @@ module CCommonCrypto [system] {
     header "/Applications/Xcode.app/Contents/Developer/Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS.sdk/usr/include/CommonCrypto/CommonCrypto.h"
     export *
 }
+
+module HOMEUUIDKeyChain [system] {
+    header "../../Classes/UUID/HOMEUUIDKeyChain.h"    
+    export *
+}
+
