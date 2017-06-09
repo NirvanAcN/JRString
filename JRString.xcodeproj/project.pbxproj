@@ -13,6 +13,7 @@
 		2B67E50B1E925F4500E3FC66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B67E50A1E925F4500E3FC66 /* Assets.xcassets */; };
 		2B67E50E1E925F4500E3FC66 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B67E50C1E925F4500E3FC66 /* LaunchScreen.storyboard */; };
 		2B6EB28B1EEA4AE600E57BA5 /* HOMEUUIDKeyChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6EB2881EEA4AE600E57BA5 /* HOMEUUIDKeyChain.m */; };
+		2B6EB2BD1EEA526100E57BA5 /* JRUUIDKeyChainManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B6EB2BC1EEA526100E57BA5 /* JRUUIDKeyChainManager.swift */; };
 		2BC6F9D21E93BF600044892F /* JRStringToImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC6F9D11E93BF600044892F /* JRStringToImage.swift */; };
 		2BD42B841E92674E0074913B /* JRCommonCrypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD42B831E92674E0074913B /* JRCommonCrypto.swift */; };
 /* End PBXBuildFile section */
@@ -27,6 +28,7 @@
 		2B67E50F1E925F4500E3FC66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2B6EB2871EEA4AE600E57BA5 /* HOMEUUIDKeyChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HOMEUUIDKeyChain.h; sourceTree = "<group>"; };
 		2B6EB2881EEA4AE600E57BA5 /* HOMEUUIDKeyChain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HOMEUUIDKeyChain.m; sourceTree = "<group>"; };
+		2B6EB2BC1EEA526100E57BA5 /* JRUUIDKeyChainManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JRUUIDKeyChainManager.swift; sourceTree = "<group>"; };
 		2BC6F9A41E938E330044892F /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
 		2BC6F9A61E938E330044892F /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
 		2BC6F9A81E938E330044892F /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
@@ -85,6 +87,7 @@
 			children = (
 				2B6EB2871EEA4AE600E57BA5 /* HOMEUUIDKeyChain.h */,
 				2B6EB2881EEA4AE600E57BA5 /* HOMEUUIDKeyChain.m */,
+				2B6EB2BC1EEA526100E57BA5 /* JRUUIDKeyChainManager.swift */,
 			);
 			path = UUID;
 			sourceTree = "<group>";
@@ -245,6 +248,7 @@
 				2B6EB28B1EEA4AE600E57BA5 /* HOMEUUIDKeyChain.m in Sources */,
 				2BC6F9D21E93BF600044892F /* JRStringToImage.swift in Sources */,
 				2B67E5041E925F4500E3FC66 /* AppDelegate.swift in Sources */,
+				2B6EB2BD1EEA526100E57BA5 /* JRUUIDKeyChainManager.swift in Sources */,
 				2BD42B841E92674E0074913B /* JRCommonCrypto.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
