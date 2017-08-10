@@ -10,7 +10,7 @@ class ViewController: UIViewController {
         print("123".JRMD5Bit32String())
         print("123".JRMD5Bit16String())
         print("123".JRMD5Bit16Value)
-        print(JRUUIDKeyChainManager.uuid)
+//        print(JRUUIDKeyChainManager.uuid)
     }
 }
 

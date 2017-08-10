@@ -7,12 +7,12 @@
 //
 
 import Foundation
-import HOMEUUIDKeyChain
-
-public class JRUUIDKeyChainManager {
-    private init() { }
-    
-    public static var uuid: String {
-        return HOMEUUIDKeyChain.value()!
-    }
-}
+//import HOMEUUIDKeyChain
+//
+//public class JRUUIDKeyChainManager {
+//    private init() { }
+//    
+//    public static var uuid: String {
+//        return HOMEUUIDKeyChain.value()!
+//    }
+//}
