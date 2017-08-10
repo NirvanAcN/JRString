@@ -1,0 +1,6 @@
+framework module JREncryption {
+  umbrella header "JREncryption-umbrella.h"
+
+  export *
+  module * { export * }
+}
